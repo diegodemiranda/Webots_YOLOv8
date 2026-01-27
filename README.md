@@ -73,7 +73,7 @@ open 3 terminals and run
 ros2 launch my_package robot_launch.py
 ```
 
-- Terminal 2 - detection node
+- Terminal 2 - detection node and IPM
 ```bash
 ros2 launch Webots_YOLOv8 vision.launch.py
 ```
