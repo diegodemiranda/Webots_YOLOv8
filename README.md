@@ -1,15 +1,15 @@
-# Computer Vision and Robot Control Pipeline with Webots + ROS 2 + YOLOv8
+# Computer Vision, Robot Control & Distance Estimation Pipeline with Webots + ROS 2 + YOLOv8
 
-This project demonstrates an integrated computer vision and robot control pipeline using the **Webots** simulation and the **ROS 2** framework.
-It allows a virtual robot to move and use a camera to detect objects with the **YOLOv8** model in real-time.
+This project demonstrates an integrated computer vision and robot control pipeline using the **Webots** simulation and the **ROS 2** framework. It allows a virtual robot (**AUREA**) to move, detect objects using **YOLOv8**, and estimate real-world distances using **Inverse Perspective Mapping (IPM)**.
 
 ## Features
 
-- **Realistic Simulation**: Uses the **Webots** robotics simulator to create a virtual environment and a mobile robot, **AUREA**.
+- **Realistic Simulation**: Uses the **Webots** robotics simulator to create a virtual environment and a mobile robot, AUREA.
 - **ROS 2 Communication**: Establishes a bidirectional connection between the Webots simulation and the ROS 2 network, enabling sensor data flow and control command transmission.
-- **Object Detection with YOLOv8**: A dedicated ROS 2 node processes the robot's camera video stream to detect objects and draw bounding boxes.
+- **Object Detection with YOLOv8**: A dedicated ROS 2 node processes the robot's camera video stream to detect objects (Balls, Robots, Goalposts) and draw bounding boxes.
+- **Distance Estimation (IPM)**: Implements Inverse Perspective Mapping to convert 2D pixel coordinates from detections into relative 3D coordinates (meters) in the robot's frame.
 - **Teleop Control**: Controls the robot's movement and camera pan using keyboard commands.
-- **Real-Time Visualization**: The processed image is published to a window opened with cv2 
+- **Real-Time Visualization**: The processed image with bounding boxes is published to a window opened with OpenCV.
 
 ## Technologies and Dependencies
 
@@ -18,10 +18,11 @@ It allows a virtual robot to move and use a camera to detect objects with the **
 - **Python 3.10**: Main language for the nodes.
 - **YOLOv8 & Ultralytics**: Object detection framework.
 - **OpenCV & cv_bridge**: Image processing and ROS ↔ OpenCV integration.
+- **IPM (Inverse Perspective Mapping)**: Technique used for projecting 2D image points to a 3D ground plane.
 
 ## Project Structure
 
-The project consists of two main ROS 2 packages:
+The project consists of the main ROS 2 packages and dependencies:
 
 - **`my_package`**
   - Contains the robot driver for Webots (`my_robot_driver.py`) and configuration files.
@@ -31,7 +32,10 @@ The project consists of two main ROS 2 packages:
 - **`Webots_YOLOv8`**
   - Contains the computer vision node (`yolo_simulation.py`).
   - Uses YOLOv8 for object detection.
-  - Publishes bounding boxes and processed images.
+  - Publishes bounding boxes, processed images, and integrates with IPM logic.
+
+- **`soccer_ipm` & `soccer_interfaces`** (Submodules)
+  - Handles the mathematical projection from pixels to meters and defines custom ROS messages.
 
 ## How to Run
 
@@ -40,16 +44,19 @@ The project consists of two main ROS 2 packages:
 - **ROS 2 Humble** installed and configured.
 - A **ROS 2 workspace** (e.g., `~/ros2_ws`).
 
-
 ### 1. Clone the Repository
-Clone the repository for your workspace 
+Clone the repository into the folder of your workspace:
+```bash
+cd ~/ros2_ws
+git clone [https://github.com/ivan-josef/Webots_YOLOv8.git](https://github.com/ivan-josef/Webots_YOLOv8.git)
+```
 
 ### 2. Add the YOLOv8 Model
 Download your best.pt model and save it in the model folder of the Webots_YOLOv8 package.
 
 ### 3. Build de project 
 ```bash
-cd ~/Webots_YOLOv8
+cd ~/ros2_ws
 colcon build
 ```
 
@@ -75,6 +82,26 @@ ros2 launch Webots_YOLOv8 vision.launch.py
 ```bash
 ros2 run my_package keyboard_controller
 ```
+
+### 6. View Distance Data (IPM)
+
+To visualize the calculated distances (in meters) for detected objects in real-time, use the CLI tool to echo the topics:
+
+first you chan choose de topic
+
+```bash
+ros2 topic list
+```
+
+All topics ending in "relative" are measures of distance from the IPM.
+
+For Balls:
+
+```bash
+ros2 topic echo /balls_relative
+```
+
+
 
 ![](https://github.com/ivan-josef/Webots_YOLOv8/blob/main/image/Screenshot%20from%202025-12-09%2022-13-23.png)
 
