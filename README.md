@@ -42,11 +42,7 @@ The project consists of two main ROS 2 packages:
 
 
 ### 1. Clone the Repository
-Inside the `src` folder of your ROS 2 workspace:
-```bash
-cd ~/ros2_ws/src
-git clone <REPOSITORY_URL>
-```
+Clone the repository for your workspace 
 
 ### 2. Add the YOLOv8 Model
 Download your best.pt model and save it in the model folder of the Webots_YOLOv8 package.
@@ -80,5 +76,6 @@ ros2 launch Webots_YOLOv8 vision.launch.py
 ros2 run my_package keyboard_controller
 ```
 
+![](https://github.com/ivan-josef/Webots_YOLOv8/blob/main/image/Screenshot%20from%202025-12-09%2022-13-23.png)
 
-
+Note that the robot was designed to facilitate model testing.
