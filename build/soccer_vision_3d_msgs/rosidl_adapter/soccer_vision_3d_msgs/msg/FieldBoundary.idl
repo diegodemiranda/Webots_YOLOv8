@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_vision_3d_msgs/msg/FieldBoundary.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "soccer_vision_attribute_msgs/msg/Confidence.idl"
+#include "std_msgs/msg/Header.idl"
+
+module soccer_vision_3d_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Describes a detected field boundary from vision modules, in 3d coordinates." "\n"
+      "The field boundary is defined as the line that separates the field of play, to" "\n"
+      "outside the field of play. Field of play is a sports terminology." "\n"
+      "Usually, this is where the field carpet ends, or meets a field border." "\n"
+      "If no field boundary was detected, leave the \"points\" vector empty.")
+    struct FieldBoundary {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "The points along the field boundary detected in 3d space, are stored as a line strip." "\n"
+        "You can think of the field boundary as a line between every two consecutive points," "\n"
+        "so 0-1, 1-2, 2-3, 3-4, 4-5...")
+      sequence<geometry_msgs::msg::Point> points;
+
+      soccer_vision_attribute_msgs::msg::Confidence confidence;
+    };
+  };
+};

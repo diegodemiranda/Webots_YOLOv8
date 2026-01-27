@@ -1,0 +1,20 @@
+[0.872s] Invoking command in '/home/ivan/Webots_YOLOv8/src/ipm/ipm_library': AMENT_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/ipm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/ipm_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ivan/Webots_YOLOv8/build/ipm_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Webots_YOLOv8/install/ipm_library/lib/python3.10/site-packages:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ipm_library build --build-base /home/ivan/Webots_YOLOv8/build/ipm_library/build install --record /home/ivan/Webots_YOLOv8/build/ipm_library/install.log --single-version-externally-managed install_data
+[1.098s] running egg_info
+[1.098s] writing ../../../build/ipm_library/ipm_library.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../../build/ipm_library/ipm_library.egg-info/dependency_links.txt
+[1.098s] writing entry points to ../../../build/ipm_library/ipm_library.egg-info/entry_points.txt
+[1.098s] writing requirements to ../../../build/ipm_library/ipm_library.egg-info/requires.txt
+[1.099s] writing top-level names to ../../../build/ipm_library/ipm_library.egg-info/top_level.txt
+[1.101s] reading manifest file '../../../build/ipm_library/ipm_library.egg-info/SOURCES.txt'
+[1.102s] writing manifest file '../../../build/ipm_library/ipm_library.egg-info/SOURCES.txt'
+[1.102s] running build
+[1.102s] running build_py
+[1.103s] running install
+[1.103s] running install_lib
+[1.104s] running install_data
+[1.104s] running install_egg_info
+[1.106s] removing '/home/ivan/Webots_YOLOv8/install/ipm_library/lib/python3.10/site-packages/ipm_library-0.0.0-py3.10.egg-info' (and everything under it)
+[1.106s] Copying ../../../build/ipm_library/ipm_library.egg-info to /home/ivan/Webots_YOLOv8/install/ipm_library/lib/python3.10/site-packages/ipm_library-0.0.0-py3.10.egg-info
+[1.107s] running install_scripts
+[1.127s] writing list of installed files to '/home/ivan/Webots_YOLOv8/build/ipm_library/install.log'
+[1.158s] Invoked command in '/home/ivan/Webots_YOLOv8/src/ipm/ipm_library' returned '0': AMENT_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/ipm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/ipm_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ivan/Webots_YOLOv8/build/ipm_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Webots_YOLOv8/install/ipm_library/lib/python3.10/site-packages:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ipm_library build --build-base /home/ivan/Webots_YOLOv8/build/ipm_library/build install --record /home/ivan/Webots_YOLOv8/build/ipm_library/install.log --single-version-externally-managed install_data

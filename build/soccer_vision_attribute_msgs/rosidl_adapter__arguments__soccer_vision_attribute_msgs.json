@@ -1,0 +1,8 @@
+{
+  "package_name": "soccer_vision_attribute_msgs",
+  "non_idl_tuples": [
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_vision_attribute_msgs:msg/Confidence.msg",
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_vision_attribute_msgs:msg/Goalpost.msg",
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_vision_attribute_msgs:msg/Robot.msg"
+  ]
+}

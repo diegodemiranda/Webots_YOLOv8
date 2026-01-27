@@ -1,0 +1,13 @@
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/Ball.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/BallArray.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/FieldBoundary.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/Goalpost.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/GoalpostArray.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/MarkingEllipse.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/MarkingIntersection.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/MarkingSegment.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/MarkingArray.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/Obstacle.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/ObstacleArray.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/Robot.idl
+/home/ivan/Webots_YOLOv8/build/soccer_vision_2d_msgs/rosidl_adapter/soccer_vision_2d_msgs:msg/RobotArray.idl

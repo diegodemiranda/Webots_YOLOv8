@@ -1,0 +1,23 @@
+{
+  "package_name": "soccer_vision_attribute_msgs",
+  "output_dir": "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_adapter/soccer_vision_attribute_msgs:msg/Confidence.idl",
+    "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_adapter/soccer_vision_attribute_msgs:msg/Goalpost.idl",
+    "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_adapter/soccer_vision_attribute_msgs:msg/Robot.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_adapter/soccer_vision_attribute_msgs/msg/Confidence.idl",
+    "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_adapter/soccer_vision_attribute_msgs/msg/Goalpost.idl",
+    "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/rosidl_adapter/soccer_vision_attribute_msgs/msg/Robot.idl"
+  ]
+}

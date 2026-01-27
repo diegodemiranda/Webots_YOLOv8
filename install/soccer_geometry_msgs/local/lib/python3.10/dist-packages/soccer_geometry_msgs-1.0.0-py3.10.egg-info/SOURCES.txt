@@ -1,0 +1,8 @@
+setup.py
+soccer_geometry_msgs/__init__.py
+soccer_geometry_msgs.egg-info/PKG-INFO
+soccer_geometry_msgs.egg-info/SOURCES.txt
+soccer_geometry_msgs.egg-info/dependency_links.txt
+soccer_geometry_msgs.egg-info/top_level.txt
+soccer_geometry_msgs/msg/__init__.py
+soccer_geometry_msgs/msg/_point_with_covariance.py

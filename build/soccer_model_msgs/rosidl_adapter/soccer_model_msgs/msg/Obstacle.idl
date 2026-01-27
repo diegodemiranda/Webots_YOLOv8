@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_model_msgs/msg/Obstacle.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+#include "geometry_msgs/msg/TwistWithCovariance.idl"
+
+module soccer_model_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Describes a filtered obstacle from modelling modules, in 3d coordinates." "\n"
+      "An Obstacle is defined as anything on the field that could not be classified as" "\n"
+      "one of the known types (such as Robot or Goalpost).")
+    struct Obstacle {
+      geometry_msgs::msg::PoseWithCovariance pose;
+
+      geometry_msgs::msg::TwistWithCovariance twist;
+    };
+  };
+};

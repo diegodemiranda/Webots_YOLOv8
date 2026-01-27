@@ -1,0 +1,13 @@
+from soccer_vision_2d_msgs.msg._ball import Ball  # noqa: F401
+from soccer_vision_2d_msgs.msg._ball_array import BallArray  # noqa: F401
+from soccer_vision_2d_msgs.msg._field_boundary import FieldBoundary  # noqa: F401
+from soccer_vision_2d_msgs.msg._goalpost import Goalpost  # noqa: F401
+from soccer_vision_2d_msgs.msg._goalpost_array import GoalpostArray  # noqa: F401
+from soccer_vision_2d_msgs.msg._marking_array import MarkingArray  # noqa: F401
+from soccer_vision_2d_msgs.msg._marking_ellipse import MarkingEllipse  # noqa: F401
+from soccer_vision_2d_msgs.msg._marking_intersection import MarkingIntersection  # noqa: F401
+from soccer_vision_2d_msgs.msg._marking_segment import MarkingSegment  # noqa: F401
+from soccer_vision_2d_msgs.msg._obstacle import Obstacle  # noqa: F401
+from soccer_vision_2d_msgs.msg._obstacle_array import ObstacleArray  # noqa: F401
+from soccer_vision_2d_msgs.msg._robot import Robot  # noqa: F401
+from soccer_vision_2d_msgs.msg._robot_array import RobotArray  # noqa: F401

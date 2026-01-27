@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_model_msgs/msg/ObstacleArray.msg
+// generated code does not contain a copyright notice
+
+#include "soccer_model_msgs/msg/Obstacle.idl"
+#include "std_msgs/msg/Header.idl"
+
+module soccer_model_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "An array of obstacles with a header for global reference." "\n"
+      "This msg type is used to publish all filtered obstacles from modelling modules.")
+    struct ObstacleArray {
+      std_msgs::msg::Header header;
+
+      sequence<soccer_model_msgs::msg::Obstacle> obstacles;
+    };
+  };
+};

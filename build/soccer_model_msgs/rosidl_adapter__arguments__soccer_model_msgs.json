@@ -1,0 +1,10 @@
+{
+  "package_name": "soccer_model_msgs",
+  "non_idl_tuples": [
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs:msg/Ball.msg",
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs:msg/Obstacle.msg",
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs:msg/ObstacleArray.msg",
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs:msg/Robot.msg",
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs:msg/RobotArray.msg"
+  ]
+}

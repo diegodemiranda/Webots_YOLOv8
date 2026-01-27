@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/soccer_geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_geometry_msgs/msg/detail/point_with_covariance__type_support.c.o"
+  "CMakeFiles/soccer_geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_geometry_msgs/msg/detail/point_with_covariance__type_support.c.o.d"
+  "libsoccer_geometry_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libsoccer_geometry_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/soccer_geometry_msgs/msg/detail/point_with_covariance__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soccer_geometry_msgs/msg/detail/point_with_covariance__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/soccer_geometry_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

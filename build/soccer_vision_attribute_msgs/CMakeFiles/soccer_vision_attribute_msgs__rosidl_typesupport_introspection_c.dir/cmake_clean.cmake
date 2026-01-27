@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.c.o"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.c.o.d"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.c.o"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.c.o.d"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/robot__type_support.c.o"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/robot__type_support.c.o.d"
+  "libsoccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libsoccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/confidence__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.c"
+  "rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/goalpost__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.c"
+  "rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/robot__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/soccer_vision_attribute_msgs/msg/detail/robot__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

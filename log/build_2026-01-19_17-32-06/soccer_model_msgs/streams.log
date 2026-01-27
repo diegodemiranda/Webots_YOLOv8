@@ -1,0 +1,349 @@
+[0.021s] Invoking command in '/home/ivan/Webots_YOLOv8/build/soccer_model_msgs': CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs:/home/ivan/Webots_YOLOv8/install/soccer_interfaces:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs:/home/ivan/Webots_YOLOv8/install/ipm_interfaces:/home/ivan/ros2_ws/install/edrom_msgs:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:/home/ivan/ros2_ws/install/edrom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs -DCMAKE_INSTALL_PREFIX=/home/ivan/Webots_YOLOv8/install/soccer_model_msgs
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.422s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.427s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.610s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.734s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.781s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.788s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.798s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.876s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.887s] -- Found soccer_geometry_msgs: 1.0.0 (/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/share/soccer_geometry_msgs/cmake)
+[0.906s] -- Found soccer_vision_attribute_msgs: 1.0.0 (/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake)
+[1.305s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.037s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.040s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.071s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.071s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.071s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.099s] -- Found PythonExtra: .so  
+[2.199s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.247s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.250s] -- Added test 'lint_cmake' to check CMake code style
+[2.252s] -- Added test 'xmllint' to check XML markup files
+[2.258s] -- Configuring done
+[2.341s] -- Generating done
+[2.365s] -- Build files have been written to: /home/ivan/Webots_YOLOv8/build/soccer_model_msgs
+[2.383s] Invoked command in '/home/ivan/Webots_YOLOv8/build/soccer_model_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs:/home/ivan/Webots_YOLOv8/install/soccer_interfaces:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs:/home/ivan/Webots_YOLOv8/install/ipm_interfaces:/home/ivan/ros2_ws/install/edrom_msgs:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:/home/ivan/ros2_ws/install/edrom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_model_msgs -DCMAKE_INSTALL_PREFIX=/home/ivan/Webots_YOLOv8/install/soccer_model_msgs
+[2.386s] Invoking command in '/home/ivan/Webots_YOLOv8/build/soccer_model_msgs': CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs:/home/ivan/Webots_YOLOv8/install/soccer_interfaces:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs:/home/ivan/Webots_YOLOv8/install/ipm_interfaces:/home/ivan/ros2_ws/install/edrom_msgs:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:/home/ivan/ros2_ws/install/edrom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ivan/Webots_YOLOv8/build/soccer_model_msgs -- -j12 -l12
+[2.446s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.461s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.480s] [  3%] Built target ament_cmake_python_copy_soccer_model_msgs
+[3.025s] running egg_info
+[3.025s] creating soccer_model_msgs.egg-info
+[3.025s] writing soccer_model_msgs.egg-info/PKG-INFO
+[3.028s] writing dependency_links to soccer_model_msgs.egg-info/dependency_links.txt
+[3.028s] writing top-level names to soccer_model_msgs.egg-info/top_level.txt
+[3.029s] writing manifest file 'soccer_model_msgs.egg-info/SOURCES.txt'
+[3.033s] reading manifest file 'soccer_model_msgs.egg-info/SOURCES.txt'
+[3.034s] writing manifest file 'soccer_model_msgs.egg-info/SOURCES.txt'
+[3.103s] [  3%] Built target ament_cmake_python_build_soccer_model_msgs_egg
+[3.527s] [  3%] Built target soccer_model_msgs__cpp
+[3.555s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.555s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.555s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.560s] [ 11%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_c.dir/rosidl_generator_c/soccer_model_msgs/msg/detail/obstacle__functions.c.o[0m
+[3.560s] [ 11%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_c.dir/rosidl_generator_c/soccer_model_msgs/msg/detail/obstacle_array__functions.c.o[0m
+[3.560s] [ 12%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_c.dir/rosidl_generator_c/soccer_model_msgs/msg/detail/ball__functions.c.o[0m
+[3.571s] [ 14%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_c.dir/rosidl_generator_c/soccer_model_msgs/msg/detail/robot_array__functions.c.o[0m
+[3.572s] [ 15%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_c.dir/rosidl_generator_c/soccer_model_msgs/msg/detail/robot__functions.c.o[0m
+[3.701s] [ 17%] [32m[1mLinking C shared library libsoccer_model_msgs__rosidl_generator_c.so[0m
+[3.791s] [ 17%] Built target soccer_model_msgs__rosidl_generator_c
+[3.815s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.815s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.815s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.322s] [ 23%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soccer_model_msgs/msg/ball__type_support.cpp.o[0m
+[4.339s] [ 26%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soccer_model_msgs/msg/obstacle__type_support.cpp.o[0m
+[4.339s] [ 28%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soccer_model_msgs/msg/obstacle_array__type_support.cpp.o[0m
+[4.339s] [ 28%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soccer_model_msgs/msg/robot__type_support.cpp.o[0m
+[4.350s] [ 30%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/soccer_model_msgs/msg/robot_array__type_support.cpp.o[0m
+[4.544s] [ 31%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soccer_model_msgs/msg/detail/ball__type_support.cpp.o[0m
+[4.563s] [ 33%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soccer_model_msgs/msg/detail/obstacle__type_support.cpp.o[0m
+[4.636s] [ 34%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_model_msgs/msg/detail/dds_fastrtps/ball__type_support.cpp.o[0m
+[4.668s] [ 36%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_model_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[4.716s] [ 38%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_model_msgs/msg/detail/ball__type_support.c.o[0m
+[4.844s] [ 39%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soccer_model_msgs/msg/ball__type_support.cpp.o[0m
+[4.920s] [ 41%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_model_msgs/msg/detail/obstacle__type_support.c.o[0m
+[5.008s] [ 42%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soccer_model_msgs/msg/obstacle__type_support.cpp.o[0m
+[5.102s] [ 44%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_model_msgs/msg/detail/obstacle_array__type_support.c.o[0m
+[5.232s] [ 46%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_model_msgs/msg/detail/dds_fastrtps/obstacle_array__type_support.cpp.o[0m
+[5.242s] [ 47%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soccer_model_msgs/msg/obstacle_array__type_support.cpp.o[0m
+[5.320s] [ 49%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_model_msgs/msg/detail/robot__type_support.c.o[0m
+[5.352s] [ 50%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/soccer_model_msgs/msg/detail/robot_array__type_support.c.o[0m
+[5.374s] [ 52%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soccer_model_msgs/msg/detail/obstacle_array__type_support.cpp.o[0m
+[5.412s] [ 53%] [32m[1mLinking CXX shared library libsoccer_model_msgs__rosidl_typesupport_cpp.so[0m
+[5.412s] [ 55%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soccer_model_msgs/msg/detail/robot__type_support.cpp.o[0m
+[5.431s] [ 57%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soccer_model_msgs/msg/robot__type_support.cpp.o[0m
+[5.551s] [ 58%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/soccer_model_msgs/msg/detail/robot_array__type_support.cpp.o[0m
+[5.555s] [ 60%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/soccer_model_msgs/msg/robot_array__type_support.cpp.o[0m
+[5.572s] [ 61%] [32m[1mLinking C shared library libsoccer_model_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.619s] [ 63%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soccer_model_msgs/msg/detail/ball__type_support_c.cpp.o[0m
+[5.630s] [ 63%] Built target soccer_model_msgs__rosidl_typesupport_cpp
+[5.684s] [ 65%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soccer_model_msgs/msg/detail/obstacle__type_support_c.cpp.o[0m
+[5.692s] [ 65%] Built target soccer_model_msgs__rosidl_typesupport_introspection_c
+[5.718s] [ 66%] [32m[1mLinking CXX shared library libsoccer_model_msgs__rosidl_typesupport_c.so[0m
+[5.749s] [ 68%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_model_msgs/msg/detail/dds_fastrtps/robot__type_support.cpp.o[0m
+[5.922s] [ 68%] Built target soccer_model_msgs__rosidl_typesupport_c
+[5.978s] [ 69%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_model_msgs/msg/detail/dds_fastrtps/robot_array__type_support.cpp.o[0m
+[6.052s] [ 71%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soccer_model_msgs/msg/detail/obstacle_array__type_support_c.cpp.o[0m
+[6.191s] [ 73%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soccer_model_msgs/msg/detail/robot__type_support_c.cpp.o[0m
+[6.242s] [ 74%] [32mBuilding CXX object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/soccer_model_msgs/msg/detail/robot_array__type_support_c.cpp.o[0m
+[7.301s] [ 76%] [32m[1mLinking CXX shared library libsoccer_model_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.306s] [ 77%] [32m[1mLinking CXX shared library libsoccer_model_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.544s] [ 77%] Built target soccer_model_msgs__rosidl_typesupport_fastrtps_c
+[7.546s] [ 77%] Built target soccer_model_msgs__rosidl_typesupport_introspection_cpp
+[7.734s] [ 79%] [32m[1mLinking CXX shared library libsoccer_model_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.055s] [ 79%] Built target soccer_model_msgs__rosidl_typesupport_fastrtps_cpp
+[8.154s] [ 79%] Built target soccer_model_msgs
+[8.255s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.479s] [ 80%] Built target soccer_model_msgs__py
+[11.604s] [ 82%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_py.dir/rosidl_generator_py/soccer_model_msgs/msg/_ball_s.c.o[0m
+[11.605s] [ 84%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_py.dir/rosidl_generator_py/soccer_model_msgs/msg/_obstacle_s.c.o[0m
+[11.620s] [ 85%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_py.dir/rosidl_generator_py/soccer_model_msgs/msg/_robot_array_s.c.o[0m
+[11.638s] [ 87%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_py.dir/rosidl_generator_py/soccer_model_msgs/msg/_obstacle_array_s.c.o[0m
+[11.643s] [ 88%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_generator_py.dir/rosidl_generator_py/soccer_model_msgs/msg/_robot_s.c.o[0m
+[12.269s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/soccer_model_msgs/libsoccer_model_msgs__rosidl_generator_py.so[0m
+[12.575s] [ 90%] Built target soccer_model_msgs__rosidl_generator_py
+[12.720s] [ 92%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/soccer_model_msgs/_soccer_model_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.733s] [ 93%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/soccer_model_msgs/_soccer_model_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.734s] [ 95%] [32mBuilding C object CMakeFiles/soccer_model_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/soccer_model_msgs/_soccer_model_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.040s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.160s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.447s] [100%] Built target soccer_model_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.484s] [100%] Built target soccer_model_msgs__rosidl_typesupport_c__pyext
+[13.574s] [100%] Built target soccer_model_msgs__rosidl_typesupport_introspection_c__pyext
+[13.855s] Invoked command in '/home/ivan/Webots_YOLOv8/build/soccer_model_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs:/home/ivan/Webots_YOLOv8/install/soccer_interfaces:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs:/home/ivan/Webots_YOLOv8/install/ipm_interfaces:/home/ivan/ros2_ws/install/edrom_msgs:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:/home/ivan/ros2_ws/install/edrom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ivan/Webots_YOLOv8/build/soccer_model_msgs -- -j12 -l12
+[13.906s] Invoking command in '/home/ivan/Webots_YOLOv8/build/soccer_model_msgs': CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs:/home/ivan/Webots_YOLOv8/install/soccer_interfaces:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs:/home/ivan/Webots_YOLOv8/install/ipm_interfaces:/home/ivan/ros2_ws/install/edrom_msgs:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:/home/ivan/ros2_ws/install/edrom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ivan/Webots_YOLOv8/build/soccer_model_msgs
+[14.187s] -- Install configuration: ""
+[14.203s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/ament_index/resource_index/rosidl_interfaces/soccer_model_msgs
+[14.211s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs
+[14.217s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg
+[14.225s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail
+[14.226s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__functions.h
+[14.233s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__struct.h
+[14.240s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__functions.c
+[14.242s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__struct.h
+[14.243s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__functions.h
+[14.246s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__struct.h
+[14.249s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__type_support.h
+[14.251s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__functions.c
+[14.256s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__type_support.h
+[14.261s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__functions.h
+[14.265s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__struct.h
+[14.269s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__functions.c
+[14.272s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__functions.h
+[14.276s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__type_support.h
+[14.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__functions.c
+[14.283s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__struct.h
+[14.287s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__type_support.h
+[14.296s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__type_support.h
+[14.302s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__functions.c
+[14.310s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__functions.h
+[14.324s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/ball.h
+[14.326s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.341s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/obstacle_array.h
+[14.342s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/robot_array.h
+[14.348s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/obstacle.h
+[14.364s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/robot.h
+[14.369s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/library_path.sh
+[14.401s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/library_path.dsv
+[14.420s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_generator_c.so
+[14.421s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_generator_c.so" to ""
+[14.423s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs
+[14.424s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg
+[14.425s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail
+[14.427s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+[14.428s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_c.h
+[14.433s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__rosidl_typesupport_fastrtps_c.h
+[14.438s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__rosidl_typesupport_fastrtps_c.h
+[14.450s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__rosidl_typesupport_fastrtps_c.h
+[14.458s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.460s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_fastrtps_c.so
+[14.465s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.466s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs
+[14.472s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg
+[14.473s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail
+[14.484s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__type_support.hpp
+[14.485s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__builder.hpp
+[14.486s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__struct.hpp
+[14.496s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__traits.hpp
+[14.497s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__struct.hpp
+[14.504s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__type_support.hpp
+[14.512s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__builder.hpp
+[14.513s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__type_support.hpp
+[14.514s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__traits.hpp
+[14.523s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__builder.hpp
+[14.525s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__traits.hpp
+[14.538s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__type_support.hpp
+[14.540s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__builder.hpp
+[14.541s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__traits.hpp
+[14.548s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__struct.hpp
+[14.549s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__struct.hpp
+[14.550s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__struct.hpp
+[14.558s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__traits.hpp
+[14.559s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__builder.hpp
+[14.560s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__type_support.hpp
+[14.570s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/ball.hpp
+[14.572s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.580s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/robot.hpp
+[14.581s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/obstacle_array.hpp
+[14.582s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/obstacle.hpp
+[14.591s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/robot_array.hpp
+[14.594s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs
+[14.595s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg
+[14.597s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail
+[14.606s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.630s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[14.631s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/dds_fastrtps
+[14.649s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[14.650s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[14.651s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__rosidl_typesupport_fastrtps_cpp.hpp
+[14.652s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.672s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.675s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.676s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs
+[14.677s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg
+[14.692s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail
+[14.693s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__rosidl_typesupport_introspection_c.h
+[14.694s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__type_support.c
+[14.708s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__type_support.c
+[14.714s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+[14.725s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__type_support.c
+[14.730s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__rosidl_typesupport_introspection_c.h
+[14.731s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__type_support.c
+[14.743s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_c.h
+[14.745s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__rosidl_typesupport_introspection_c.h
+[14.745s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__type_support.c
+[14.746s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.760s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_introspection_c.so
+[14.761s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.762s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_c.so
+[14.763s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_c.so" to ""
+[14.782s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs
+[14.783s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg
+[14.784s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail
+[14.784s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__type_support.cpp
+[14.785s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[14.786s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__rosidl_typesupport_introspection_cpp.hpp
+[14.787s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+[14.794s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle__type_support.cpp
+[14.795s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot_array__rosidl_typesupport_introspection_cpp.hpp
+[14.796s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__type_support.cpp
+[14.801s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/ball__type_support.cpp
+[14.802s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_cpp.hpp
+[14.803s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/include/soccer_model_msgs/soccer_model_msgs/msg/detail/robot__type_support.cpp
+[14.807s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_introspection_cpp.so
+[14.808s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.812s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_cpp.so
+[14.816s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_typesupport_cpp.so" to ""
+[14.817s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/pythonpath.sh
+[14.822s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/pythonpath.dsv
+[14.823s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs-1.0.0-py3.10.egg-info
+[14.824s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[14.833s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[14.834s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[14.835s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[14.840s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs
+[14.845s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.846s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.849s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg
+[14.850s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_obstacle_s.c
+[14.851s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_robot_s.c
+[14.856s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_robot_array.py
+[14.857s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_obstacle_array.py
+[14.858s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/__init__.py
+[14.864s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_ball_s.c
+[14.865s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_obstacle_array_s.c
+[14.866s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_obstacle.py
+[14.873s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_robot_array_s.c
+[14.874s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_robot.py
+[14.874s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_ball.py
+[14.883s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/__init__.py
+[14.884s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/_soccer_model_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.904s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.908s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/_soccer_model_msgs_s.ep.rosidl_typesupport_c.c
+[14.931s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/libsoccer_model_msgs__rosidl_generator_py.so
+[14.937s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/_soccer_model_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.184s] Listing '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs'...
+[15.184s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/__init__.py'...
+[15.184s] Listing '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg'...
+[15.184s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/__init__.py'...
+[15.184s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_ball.py'...
+[15.184s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_obstacle.py'...
+[15.185s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_obstacle_array.py'...
+[15.185s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_robot.py'...
+[15.185s] Compiling '/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/msg/_robot_array.py'...
+[15.262s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.262s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.262s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.265s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.273s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.273s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/local/lib/python3.10/dist-packages/soccer_model_msgs/soccer_model_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.273s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_generator_py.so
+[15.273s] -- Set runtime path of "/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib/libsoccer_model_msgs__rosidl_generator_py.so" to ""
+[15.273s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/Ball.idl
+[15.274s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/Obstacle.idl
+[15.274s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/ObstacleArray.idl
+[15.274s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/Robot.idl
+[15.275s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/RobotArray.idl
+[15.275s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/Ball.msg
+[15.275s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/Obstacle.msg
+[15.275s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/ObstacleArray.msg
+[15.275s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/Robot.msg
+[15.279s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/msg/RobotArray.msg
+[15.279s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/ament_index/resource_index/package_run_dependencies/soccer_model_msgs
+[15.279s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/ament_index/resource_index/parent_prefix_path/soccer_model_msgs
+[15.279s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/ament_prefix_path.sh
+[15.279s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/ament_prefix_path.dsv
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/path.sh
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/environment/path.dsv
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/local_setup.bash
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/local_setup.sh
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/local_setup.zsh
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/local_setup.dsv
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/package.dsv
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/ament_index/resource_index/packages/soccer_model_msgs
+[15.280s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_generator_cExport.cmake
+[15.281s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.281s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.281s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.281s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_generator_cppExport.cmake
+[15.288s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.288s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.288s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.288s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.288s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_cExport.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_cppExport.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_generator_pyExport.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/export_soccer_model_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/rosidl_cmake-extras.cmake
+[15.291s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.292s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.292s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.292s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.292s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.293s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.293s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgsConfig.cmake
+[15.294s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/cmake/soccer_model_msgsConfig-version.cmake
+[15.294s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_model_msgs/share/soccer_model_msgs/package.xml
+[15.302s] Invoked command in '/home/ivan/Webots_YOLOv8/build/soccer_model_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs:/home/ivan/Webots_YOLOv8/install/soccer_interfaces:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs:/home/ivan/Webots_YOLOv8/install/ipm_interfaces:/home/ivan/ros2_ws/install/edrom_msgs:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble LD_LIBRARY_PATH=/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_geometry_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_3d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_vision_2d_msgs/lib:/home/ivan/Webots_YOLOv8/install/soccer_model_msgs/lib:/home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib:/home/ivan/ros2_ws/install/edrom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ivan/Webots_YOLOv8/build/soccer_model_msgs

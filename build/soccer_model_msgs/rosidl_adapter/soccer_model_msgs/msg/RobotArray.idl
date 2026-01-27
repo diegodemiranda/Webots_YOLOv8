@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_model_msgs/msg/RobotArray.msg
+// generated code does not contain a copyright notice
+
+#include "soccer_model_msgs/msg/Robot.idl"
+#include "std_msgs/msg/Header.idl"
+
+module soccer_model_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "An array of robots with a header for global reference." "\n"
+      "This msg type is used to publish all filtered robots from modelling modules.")
+    struct RobotArray {
+      std_msgs::msg::Header header;
+
+      sequence<soccer_model_msgs::msg::Robot> robots;
+    };
+  };
+};

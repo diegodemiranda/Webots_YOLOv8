@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_vision_3d_msgs/msg/GoalpostArray.msg
+// generated code does not contain a copyright notice
+
+#include "soccer_vision_3d_msgs/msg/Goalpost.idl"
+#include "std_msgs/msg/Header.idl"
+
+module soccer_vision_3d_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "An array of goalposts with a header for global reference." "\n"
+      "This msg type is used to publish all goalposts detected in 3d space.")
+    struct GoalpostArray {
+      std_msgs::msg::Header header;
+
+      sequence<soccer_vision_3d_msgs::msg::Goalpost> posts;
+    };
+  };
+};

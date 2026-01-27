@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/confidence__type_support.cpp.o"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/confidence__type_support.cpp.o.d"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/goalpost__type_support.cpp.o"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/goalpost__type_support.cpp.o.d"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/robot__type_support.cpp.o"
+  "CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/robot__type_support.cpp.o.d"
+  "libsoccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libsoccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/confidence__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/confidence__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/goalpost__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps/robot__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/goalpost__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/soccer_vision_attribute_msgs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

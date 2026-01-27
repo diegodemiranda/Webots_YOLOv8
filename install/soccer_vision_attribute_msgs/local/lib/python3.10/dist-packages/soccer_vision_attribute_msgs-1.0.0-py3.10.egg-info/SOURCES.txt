@@ -1,0 +1,10 @@
+setup.py
+soccer_vision_attribute_msgs/__init__.py
+soccer_vision_attribute_msgs.egg-info/PKG-INFO
+soccer_vision_attribute_msgs.egg-info/SOURCES.txt
+soccer_vision_attribute_msgs.egg-info/dependency_links.txt
+soccer_vision_attribute_msgs.egg-info/top_level.txt
+soccer_vision_attribute_msgs/msg/__init__.py
+soccer_vision_attribute_msgs/msg/_confidence.py
+soccer_vision_attribute_msgs/msg/_goalpost.py
+soccer_vision_attribute_msgs/msg/_robot.py

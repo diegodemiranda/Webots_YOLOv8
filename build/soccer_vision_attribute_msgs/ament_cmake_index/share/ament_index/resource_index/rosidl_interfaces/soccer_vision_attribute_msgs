@@ -1,0 +1,6 @@
+msg/Confidence.idl
+msg/Confidence.msg
+msg/Goalpost.idl
+msg/Goalpost.msg
+msg/Robot.idl
+msg/Robot.msg

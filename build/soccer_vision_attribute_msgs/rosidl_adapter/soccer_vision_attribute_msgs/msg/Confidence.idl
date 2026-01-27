@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_vision_attribute_msgs/msg/Confidence.msg
+// generated code does not contain a copyright notice
+
+
+module soccer_vision_attribute_msgs {
+  module msg {
+    module Confidence_Constants {
+      const float CONFIDENCE_UNKNOWN = -1.0;
+    };
+    struct Confidence {
+      @verbatim (language="comment", text=
+        "A confidence rating in the range, or -1.0(CONFIDENCE_UNKNOWN) by default." "\n"
+        "0.0 - detection module is 0% sure" "\n"
+        "1.0 - detection module is 100% sure")
+      @default (value=-1.0)
+      @unit (value="0.0 - 1.0")
+      float confidence;
+    };
+  };
+};

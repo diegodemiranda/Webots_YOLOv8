@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from soccer_model_msgs:msg/ObstacleArray.idl
+// generated code does not contain a copyright notice
+
+#ifndef SOCCER_MODEL_MSGS__MSG__OBSTACLE_ARRAY_H_
+#define SOCCER_MODEL_MSGS__MSG__OBSTACLE_ARRAY_H_
+
+#include "soccer_model_msgs/msg/detail/obstacle_array__struct.h"
+#include "soccer_model_msgs/msg/detail/obstacle_array__functions.h"
+#include "soccer_model_msgs/msg/detail/obstacle_array__type_support.h"
+
+#endif  // SOCCER_MODEL_MSGS__MSG__OBSTACLE_ARRAY_H_

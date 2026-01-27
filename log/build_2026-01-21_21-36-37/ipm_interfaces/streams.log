@@ -1,0 +1,173 @@
+[0.048s] Invoking command in '/home/ivan/Webots_YOLOv8/build/ipm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Webots_YOLOv8/build/ipm_interfaces -- -j12 -l12
+[0.203s] [  2%] Built target ipm_interfaces__cpp
+[0.244s] [ 12%] Built target ipm_interfaces__rosidl_generator_c
+[0.274s] [ 12%] Built target ament_cmake_python_copy_ipm_interfaces
+[0.309s] [ 23%] Built target ipm_interfaces__rosidl_typesupport_cpp
+[0.323s] [ 33%] Built target ipm_interfaces__rosidl_typesupport_introspection_cpp
+[0.332s] [ 43%] Built target ipm_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.347s] [ 53%] Built target ipm_interfaces__rosidl_typesupport_c
+[0.350s] [ 64%] Built target ipm_interfaces__rosidl_typesupport_introspection_c
+[0.355s] [ 74%] Built target ipm_interfaces__rosidl_typesupport_fastrtps_c
+[0.392s] [ 74%] Built target ipm_interfaces
+[0.430s] [ 76%] Built target ipm_interfaces__py
+[0.474s] [ 84%] Built target ipm_interfaces__rosidl_generator_py
+[0.525s] [ 89%] Built target ipm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.529s] [ 94%] Built target ipm_interfaces__rosidl_typesupport_c__pyext
+[0.531s] [100%] Built target ipm_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.767s] running egg_info
+[0.768s] writing ipm_interfaces.egg-info/PKG-INFO
+[0.770s] writing dependency_links to ipm_interfaces.egg-info/dependency_links.txt
+[0.770s] writing top-level names to ipm_interfaces.egg-info/top_level.txt
+[0.774s] reading manifest file 'ipm_interfaces.egg-info/SOURCES.txt'
+[0.775s] writing manifest file 'ipm_interfaces.egg-info/SOURCES.txt'
+[0.841s] [100%] Built target ament_cmake_python_build_ipm_interfaces_egg
+[0.863s] Invoked command in '/home/ivan/Webots_YOLOv8/build/ipm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Webots_YOLOv8/build/ipm_interfaces -- -j12 -l12
+[0.866s] Invoking command in '/home/ivan/Webots_YOLOv8/build/ipm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Webots_YOLOv8/build/ipm_interfaces
+[0.881s] -- Install configuration: ""
+[0.882s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ament_index/resource_index/rosidl_interfaces/ipm_interfaces
+[0.883s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.884s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.884s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__functions.c
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__struct.h
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__functions.h
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.h
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__functions.c
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__struct.h
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.h
+[0.885s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__functions.h
+[0.886s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point.h
+[0.886s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point_cloud2.h
+[0.886s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.886s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.886s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/library_path.sh
+[0.886s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/library_path.dsv
+[0.887s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_generator_c.so
+[0.887s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.887s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.887s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.887s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_fastrtps_c.h
+[0.888s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_fastrtps_c.h
+[0.888s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.888s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.888s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.889s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.889s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.889s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.889s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__traits.hpp
+[0.889s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.hpp
+[0.890s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__struct.hpp
+[0.890s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__builder.hpp
+[0.890s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__struct.hpp
+[0.890s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__builder.hpp
+[0.890s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.hpp
+[0.890s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__traits.hpp
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point_cloud2.hpp
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/map_point.hpp
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.891s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.892s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/dds_fastrtps
+[0.892s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[0.892s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_fastrtps_cpp.hpp
+[0.892s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.892s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.893s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.893s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.893s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.894s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.894s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_introspection_c.h
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.c
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_introspection_c.h
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.c
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_introspection_c.so
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_c.so
+[0.895s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__rosidl_typesupport_introspection_cpp.hpp
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__type_support.cpp
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point__type_support.cpp
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/include/ipm_interfaces/ipm_interfaces/srv/detail/map_point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[0.896s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.897s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_typesupport_cpp.so
+[0.897s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/pythonpath.sh
+[0.897s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/pythonpath.dsv
+[0.898s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces-0.0.0-py3.10.egg-info
+[0.898s] -- Installing: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.898s] -- Installing: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.898s] -- Installing: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.898s] -- Installing: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.899s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces
+[0.899s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.899s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv
+[0.899s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv/_map_point_cloud2.py
+[0.899s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv/_map_point_cloud2_s.c
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv/_map_point.py
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv/__init__.py
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv/_map_point_s.c
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/_ipm_interfaces_s.ep.rosidl_typesupport_c.c
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/__init__.py
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/_ipm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.900s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.901s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.901s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/_ipm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.902s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/libipm_interfaces__rosidl_generator_py.so
+[0.965s] Listing '/home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces'...
+[0.965s] Listing '/home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/srv'...
+[0.974s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.976s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.978s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/local/lib/python3.10/dist-packages/ipm_interfaces/ipm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.981s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/lib/libipm_interfaces__rosidl_generator_py.so
+[0.981s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint.idl
+[0.981s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2.idl
+[0.981s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint.srv
+[0.981s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint_Request.msg
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPoint_Response.msg
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2.srv
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2_Request.msg
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/srv/MapPointCloud2_Response.msg
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ament_index/resource_index/package_run_dependencies/ipm_interfaces
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ament_index/resource_index/parent_prefix_path/ipm_interfaces
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/ament_prefix_path.sh
+[0.982s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/ament_prefix_path.dsv
+[0.983s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/path.sh
+[0.983s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/environment/path.dsv
+[0.983s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/local_setup.bash
+[0.983s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/local_setup.sh
+[0.983s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/local_setup.zsh
+[0.984s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/local_setup.dsv
+[0.984s] -- Installing: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/package.dsv
+[0.984s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ament_index/resource_index/packages/ipm_interfaces
+[0.984s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_cExport.cmake
+[0.984s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.985s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_cppExport.cmake
+[0.985s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.985s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.985s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.986s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.987s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cExport.cmake
+[0.987s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.987s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.987s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cppExport.cmake
+[0.988s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.988s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_pyExport.cmake
+[0.989s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/export_ipm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.989s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.989s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.989s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfacesConfig.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/cmake/ipm_interfacesConfig-version.cmake
+[0.990s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/ipm_interfaces/share/ipm_interfaces/package.xml
+[1.041s] Invoked command in '/home/ivan/Webots_YOLOv8/build/ipm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/home/ivan/ros2_ws/install/object_finder_onnx:/home/ivan/ros2_ws/install/object_finder:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Webots_YOLOv8:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Webots_YOLOv8/build/ipm_interfaces

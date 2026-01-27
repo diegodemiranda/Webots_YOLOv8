@@ -1,0 +1,10 @@
+
+# Result code defintions
+uint8 RESULT_SUCCESS=0
+uint8 RESULT_NO_CAMERA_INFO=1
+uint8 RESULT_INVALID_PLANE=2
+uint8 RESULT_NO_INTERSECTION=3
+
+# Returned point is only valid if result equals RESULT_SUCCESS
+geometry_msgs/PointStamped point
+uint8 result

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "soccer_model_msgs__py",
+		"source" : "/home/ivan/Webots_YOLOv8/build/soccer_model_msgs/soccer_model_msgs__py"
+	}
+}

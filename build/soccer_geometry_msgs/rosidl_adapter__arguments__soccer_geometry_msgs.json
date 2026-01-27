@@ -1,0 +1,6 @@
+{
+  "package_name": "soccer_geometry_msgs",
+  "non_idl_tuples": [
+    "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_geometry_msgs:msg/PointWithCovariance.msg"
+  ]
+}

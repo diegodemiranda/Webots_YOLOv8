@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_vision_2d_msgs/msg/Goalpost.msg
+// generated code does not contain a copyright notice
+
+#include "soccer_vision_attribute_msgs/msg/Confidence.idl"
+#include "soccer_vision_attribute_msgs/msg/Goalpost.idl"
+#include "vision_msgs/msg/BoundingBox2D.idl"
+
+module soccer_vision_2d_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Describes a detected goalpost from vision modules, in image coordinates.")
+    struct Goalpost {
+      @verbatim (language="comment", text=
+        "A bounding box that surrounds the goalpost in the image, that can be rotated about its center." "\n"
+        "This does not have to include the whole goalpost, but only the" "\n"
+        "part of the goalpost that was detected." "\n"
+        "The rotation of the bounding box should be 0 when the goalpost appears upright in the image.")
+      vision_msgs::msg::BoundingBox2D bb;
+
+      soccer_vision_attribute_msgs::msg::Goalpost attributes;
+
+      soccer_vision_attribute_msgs::msg::Confidence confidence;
+    };
+  };
+};

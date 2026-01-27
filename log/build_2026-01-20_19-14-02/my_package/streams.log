@@ -1,0 +1,26 @@
+[1.748s] Invoking command in '/home/ivan/Webots_YOLOv8/src/my_package': PYTHONPATH=/home/ivan/Webots_YOLOv8/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Webots_YOLOv8/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ivan/Webots_YOLOv8/build/my_package/build install --record /home/ivan/Webots_YOLOv8/build/my_package/install.log --single-version-externally-managed install_data
+[2.118s] running egg_info
+[2.119s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.119s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.120s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.120s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.120s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.123s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.123s] adding license file 'LICENSE'
+[2.123s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.123s] running build
+[2.123s] running build_py
+[2.123s] copying my_package/my_robot_driver.py -> /home/ivan/Webots_YOLOv8/build/my_package/build/lib/my_package
+[2.124s] running install
+[2.125s] running install_lib
+[2.125s] copying /home/ivan/Webots_YOLOv8/build/my_package/build/lib/my_package/my_robot_driver.py -> /home/ivan/Webots_YOLOv8/install/my_package/lib/python3.10/site-packages/my_package
+[2.126s] byte-compiling /home/ivan/Webots_YOLOv8/install/my_package/lib/python3.10/site-packages/my_package/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[2.127s] running install_data
+[2.128s] running install_egg_info
+[2.131s] removing '/home/ivan/Webots_YOLOv8/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.131s] Copying ../../build/my_package/my_package.egg-info to /home/ivan/Webots_YOLOv8/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.132s] running install_scripts
+[2.163s] Installing keyboard_teleop script to /home/ivan/Webots_YOLOv8/install/my_package/lib/my_package
+[2.163s] Installing my_robot_driver script to /home/ivan/Webots_YOLOv8/install/my_package/lib/my_package
+[2.164s] writing list of installed files to '/home/ivan/Webots_YOLOv8/build/my_package/install.log'
+[2.570s] Invoked command in '/home/ivan/Webots_YOLOv8/src/my_package' returned '0': PYTHONPATH=/home/ivan/Webots_YOLOv8/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/Webots_YOLOv8/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ivan/Webots_YOLOv8/build/my_package/build install --record /home/ivan/Webots_YOLOv8/build/my_package/install.log --single-version-externally-managed install_data

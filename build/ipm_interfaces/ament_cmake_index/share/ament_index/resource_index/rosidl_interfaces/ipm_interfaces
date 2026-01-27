@@ -1,0 +1,8 @@
+srv/MapPoint.idl
+srv/MapPoint.srv
+srv/MapPointCloud2.idl
+srv/MapPointCloud2.srv
+srv/MapPointCloud2_Request.msg
+srv/MapPointCloud2_Response.msg
+srv/MapPoint_Request.msg
+srv/MapPoint_Response.msg

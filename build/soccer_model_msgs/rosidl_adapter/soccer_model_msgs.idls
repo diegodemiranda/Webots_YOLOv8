@@ -1,0 +1,5 @@
+/home/ivan/Webots_YOLOv8/build/soccer_model_msgs/rosidl_adapter/soccer_model_msgs:msg/Ball.idl
+/home/ivan/Webots_YOLOv8/build/soccer_model_msgs/rosidl_adapter/soccer_model_msgs:msg/Obstacle.idl
+/home/ivan/Webots_YOLOv8/build/soccer_model_msgs/rosidl_adapter/soccer_model_msgs:msg/ObstacleArray.idl
+/home/ivan/Webots_YOLOv8/build/soccer_model_msgs/rosidl_adapter/soccer_model_msgs:msg/Robot.idl
+/home/ivan/Webots_YOLOv8/build/soccer_model_msgs/rosidl_adapter/soccer_model_msgs:msg/RobotArray.idl

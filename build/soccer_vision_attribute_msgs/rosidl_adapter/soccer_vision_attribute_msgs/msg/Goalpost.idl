@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_vision_attribute_msgs/msg/Goalpost.msg
+// generated code does not contain a copyright notice
+
+
+module soccer_vision_attribute_msgs {
+  module msg {
+    module Goalpost_Constants {
+      const uint8 SIDE_UNKNOWN = 0;
+      const uint8 SIDE_LEFT = 1;
+      const uint8 SIDE_RIGHT = 2;
+      const uint8 TEAM_UNKNOWN = 0;
+      const uint8 TEAM_OWN = 1;
+      const uint8 TEAM_OPPONENT = 2;
+    };
+    struct Goalpost {
+      @verbatim (language="comment", text=
+        "Whether the post is a left or right post, when looking INTO the goal." "\n"
+        "Value can be SIDE_UNKNOWN, SIDE_LEFT or SIDE_RIGHT")
+      uint8 side;
+
+      @verbatim (language="comment", text=
+        "Which team's goal, the goalpost is part of. A team's goal is the one" "\n"
+        "they have to defend. This can be useful if the two goals have different colors," "\n"
+        "and you know whether you're looking at your own or opponent's goal." "\n"
+        "Value can be TEAM_UNKNOWN, TEAM_OWN or TEAM_OPPONENT")
+      uint8 team;
+    };
+  };
+};

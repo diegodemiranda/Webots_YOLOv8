@@ -9,7 +9,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation -0.2557069467409149 0.8157288956743951 -0.5188451851470444 0.3562258066324983
-  position -2.239874178853285 0.762600763063759 0.9516099732906154
+  position -3.448310836464416 1.011698036889956 1.306117796980848
 }
 TexturedBackground {
 }
@@ -42,13 +42,16 @@ Robot {
         anchor 0.05 0.06 0
       }
       device [
+        PositionSensor {
+          name "wheel_fl_sensor"
+        }
         RotationalMotor {
-          name "MOTOR_1"
+          name "wheel_fl_motor"
         }
       ]
       endPoint Solid {
         translation 0.05 0.06 0
-        rotation 0.9999999999999998 9.755353364589783e-09 -9.755313195778936e-09 1.5707953071795862
+        rotation 0.9999999999999998 9.789397338062913e-09 -9.789357134540327e-09 1.5707953071795862
         children [
           DEF WHEEL Shape {
             appearance PBRAppearance {
@@ -61,6 +64,7 @@ Robot {
             }
           }
         ]
+        name "wheel_fl_link"
         boundingObject USE WHEEL
         physics Physics {
         }
@@ -73,17 +77,20 @@ Robot {
         anchor 0.05 -0.06 0
       }
       device [
+        PositionSensor {
+          name "wheel_fr_sensor"
+        }
         RotationalMotor {
-          name "MOTOR_2"
+          name "wheel_fr_motor"
         }
       ]
       endPoint Solid {
         translation 0.05 -0.06 0
-        rotation 1 -2.388352578540041e-10 2.38836062038672e-10 1.5707996938995745
+        rotation 1 -2.916088655011858e-10 2.9160984738041407e-10 1.5707996938995745
         children [
           USE WHEEL
         ]
-        name "solid(1)"
+        name "wheel_fr_link"
         boundingObject USE WHEEL
         physics Physics {
         }
@@ -96,17 +103,20 @@ Robot {
         anchor -0.05 0.06 0
       }
       device [
+        PositionSensor {
+          name "wheel_rl_sensor"
+        }
         RotationalMotor {
-          name "MOTOR_3"
+          name "wheel_rl_motor"
         }
       ]
       endPoint Solid {
         translation -0.05 0.06 0
-        rotation 1 1.5712415886608688e-10 -1.571247841123649e-10 1.5708003061004252
+        rotation 1 1.8725017915975534e-10 -1.8725092428691087e-10 1.5708003061004252
         children [
           USE WHEEL
         ]
-        name "solid(2)"
+        name "wheel_rl_link"
         boundingObject USE WHEEL
         physics Physics {
         }
@@ -119,17 +129,20 @@ Robot {
         anchor -0.05 -0.06 0
       }
       device [
+        PositionSensor {
+          name "wheel_rr_sensor"
+        }
         RotationalMotor {
-          name "MOTOR_4"
+          name "wheel_rr_motor"
         }
       ]
       endPoint Solid {
         translation -0.05 -0.06 0
-        rotation 1 -2.3451562269390005e-10 2.345164123338799e-10 1.5707996938995745
+        rotation 1 -2.8637945949666853e-10 2.8638042376791e-10 1.5707996938995745
         children [
           USE WHEEL
         ]
-        name "solid(3)"
+        name "wheel_rr_link"
         boundingObject USE WHEEL
         physics Physics {
         }
@@ -156,8 +169,11 @@ Robot {
             anchor 0 0 0.11
           }
           device [
+            PositionSensor {
+              name "cam_pan_sensor"
+            }
             RotationalMotor {
-              name "MOTOR_CAM"
+              name "cam_pan_motor"
             }
           ]
           endPoint Solid {
@@ -175,23 +191,24 @@ Robot {
                 }
               }
               Camera {
-                name "CAM"
+                name "camera_optical_frame"
                 width 1080
                 height 720
               }
               Display {
-                name "CAM_OVERLAY_DISPLAY"
+                name "cam_overlay_display"
                 width 1080
                 height 720
               }
             ]
+            name "camera_link"
             boundingObject USE CAM_BODY
             physics Physics {
             }
           }
         }
       ]
-      name "solid(4)"
+      name "neck_link"
       boundingObject USE ROBOT_BODY
       physics Physics {
       }

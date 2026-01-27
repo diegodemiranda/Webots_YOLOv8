@@ -37,6 +37,7 @@ setup(
         'console_scripts': [
             # Certifique-se de que o nome do arquivo aqui é o nome do seu script unificado final.
             'finder = Webots_YOLOv8.yolo_simulation:main',
+            
         ],
     },
     

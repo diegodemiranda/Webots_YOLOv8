@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4e781f1ff78dfec0fbef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "soccer_geometry_msgs__py",
+					"jsonFile" : "directory-soccer_geometry_msgs__py-03d4ee1c1ad73f091d0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ivan/Webots_YOLOv8/build/soccer_geometry_msgs/soccer_geometry_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "soccer_geometry_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_soccer_geometry_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_soccer_geometry_msgs_egg-ddd8ecba47a6c1a64ceb.json",
+					"name" : "ament_cmake_python_build_soccer_geometry_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_soccer_geometry_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_soccer_geometry_msgs-f97499df55577f032ce8.json",
+					"name" : "ament_cmake_python_copy_soccer_geometry_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs-5b3bf0b37d731d65f3ad.json",
+					"name" : "soccer_geometry_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__cpp-c233390caa3f0c73bef7.json",
+					"name" : "soccer_geometry_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "soccer_geometry_msgs__py::@02852f83053263fce753",
+					"jsonFile" : "target-soccer_geometry_msgs__py-718449f638275d6b7334.json",
+					"name" : "soccer_geometry_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_generator_c-8e13dd2be11bc8a6ef98.json",
+					"name" : "soccer_geometry_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_generator_py-82e4a7b4a6940d8eafc1.json",
+					"name" : "soccer_geometry_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_c-34dad28db08af47e6bcc.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_c__pyext-e7eaecce17946654c97b.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_cpp-e70acf515fab19df4902.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_fastrtps_c-7eb575cbc9946fe8f145.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_fastrtps_c__pyext-bc558c0e20aa783ee5f0.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_fastrtps_cpp-1dbc15e0d547e61b4413.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_introspection_c-ec90bd0e771f59846c75.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_introspection_c__pyext-36a49caf566ac192bcd4.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs__rosidl_typesupport_introspection_cpp-2ec6bb2cf52aef2830bd.json",
+					"name" : "soccer_geometry_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "soccer_geometry_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-soccer_geometry_msgs_uninstall-4eb0b8cbb27a023d3d05.json",
+					"name" : "soccer_geometry_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b29e678c0de7886d7143.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivan/Webots_YOLOv8/build/soccer_geometry_msgs",
+		"source" : "/home/ivan/Webots_YOLOv8/src/soccer_interfaces/soccer_geometry_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

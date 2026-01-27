@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "soccer_vision_attribute_msgs__py",
+		"source" : "/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs__py"
+	}
+}

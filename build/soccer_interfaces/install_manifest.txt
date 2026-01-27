@@ -1,0 +1,15 @@
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/ament_index/resource_index/package_run_dependencies/soccer_interfaces
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/ament_index/resource_index/parent_prefix_path/soccer_interfaces
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/ament_prefix_path.sh
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/ament_prefix_path.dsv
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/path.sh
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/path.dsv
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.bash
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.sh
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.zsh
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.dsv
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/package.dsv
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/ament_index/resource_index/packages/soccer_interfaces
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/cmake/soccer_interfacesConfig.cmake
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/cmake/soccer_interfacesConfig-version.cmake
+/home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/package.xml

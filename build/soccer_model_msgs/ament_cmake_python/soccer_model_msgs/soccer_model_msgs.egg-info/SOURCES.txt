@@ -1,0 +1,12 @@
+setup.py
+soccer_model_msgs/__init__.py
+soccer_model_msgs.egg-info/PKG-INFO
+soccer_model_msgs.egg-info/SOURCES.txt
+soccer_model_msgs.egg-info/dependency_links.txt
+soccer_model_msgs.egg-info/top_level.txt
+soccer_model_msgs/msg/__init__.py
+soccer_model_msgs/msg/_ball.py
+soccer_model_msgs/msg/_obstacle.py
+soccer_model_msgs/msg/_obstacle_array.py
+soccer_model_msgs/msg/_robot.py
+soccer_model_msgs/msg/_robot_array.py

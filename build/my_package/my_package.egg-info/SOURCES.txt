@@ -13,8 +13,8 @@ launch/robot_launch.py
 my_package/__init__.py
 my_package/keyboard_teleop.py
 my_package/my_robot_driver.py
+resource/AUREA.urdf
 resource/my_package
-resource/my_robot.urdf
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

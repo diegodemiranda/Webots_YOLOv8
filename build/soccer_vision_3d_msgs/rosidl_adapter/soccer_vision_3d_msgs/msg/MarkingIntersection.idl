@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from soccer_vision_3d_msgs/msg/MarkingIntersection.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "soccer_vision_attribute_msgs/msg/Confidence.idl"
+
+module soccer_vision_3d_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Describes a detected marking intersection from vision modules, in 3d coordinates." "\n"
+      "An intersection is defined as a point where two or more line markings intersect." "\n"
+      "The term ray is used to describe the outgoing rays from the center of the" "\n"
+      "intersection.")
+    struct MarkingIntersection {
+      @verbatim (language="comment", text=
+        "Center point of the intersection")
+      geometry_msgs::msg::Point center;
+
+      @verbatim (language="comment", text=
+        "The number of rays outgoing from an intersection. This is 3 for a T-Junction and" "\n"
+        "4 for an X-Junction")
+      int32 num_rays;
+
+      @verbatim (language="comment", text=
+        "NOTE: The length of the array should either:" "\n"
+        "- Match the number of rays specified with num_rays OR" "\n"
+        "- Be empty, if the headings are unknown")
+      sequence<geometry_msgs::msg::Vector3> rays;
+
+      soccer_vision_attribute_msgs::msg::Confidence confidence;
+    };
+  };
+};
