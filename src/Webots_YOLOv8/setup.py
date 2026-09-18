@@ -37,9 +37,7 @@ setup(
         'console_scripts': [
             # Certifique-se de que o nome do arquivo aqui é o nome do seu script unificado final.
             'finder = Webots_YOLOv8.yolo_simulation:main',
-            'segmentation = Webots_YOLOv8.segmentation_simulation:main',
-            'calibrar = Webots_YOLOv8.calibrar_cores_webots:main',
-            'avaliar = Webots_YOLOv8.avaliar_segmentacao:main',
+            
         ],
     },
     
