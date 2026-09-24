@@ -1,0 +1,184 @@
+[0.026s] Invoking command in '/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs -- -j12 -l12
+[0.091s] [ 12%] Built target soccer_vision_attribute_msgs__rosidl_generator_c
+[0.091s] [ 12%] Built target soccer_vision_attribute_msgs__cpp
+[0.111s] [ 12%] Built target ament_cmake_python_copy_soccer_vision_attribute_msgs
+[0.158s] [ 23%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_introspection_cpp
+[0.160s] [ 34%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_cpp
+[0.161s] [ 44%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_c
+[0.161s] [ 55%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c
+[0.163s] [ 65%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp
+[0.171s] [ 76%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_c
+[0.208s] [ 76%] Built target soccer_vision_attribute_msgs
+[0.240s] [ 78%] Built target soccer_vision_attribute_msgs__py
+[0.271s] [ 87%] Built target soccer_vision_attribute_msgs__rosidl_generator_py
+[0.313s] [ 95%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.314s] [ 95%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_introspection_c__pyext
+[0.315s] [100%] Built target soccer_vision_attribute_msgs__rosidl_typesupport_c__pyext
+[0.490s] running egg_info
+[0.491s] writing soccer_vision_attribute_msgs.egg-info/PKG-INFO
+[0.491s] writing dependency_links to soccer_vision_attribute_msgs.egg-info/dependency_links.txt
+[0.491s] writing top-level names to soccer_vision_attribute_msgs.egg-info/top_level.txt
+[0.494s] reading manifest file 'soccer_vision_attribute_msgs.egg-info/SOURCES.txt'
+[0.495s] writing manifest file 'soccer_vision_attribute_msgs.egg-info/SOURCES.txt'
+[0.548s] [100%] Built target ament_cmake_python_build_soccer_vision_attribute_msgs_egg
+[0.565s] Invoked command in '/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/opt/ros/humble /usr/bin/cmake --build /home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs -- -j12 -l12
+[0.568s] Invoking command in '/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs
+[0.576s] -- Install configuration: ""
+[0.576s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/ament_index/resource_index/rosidl_interfaces/soccer_vision_attribute_msgs
+[0.576s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs
+[0.576s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg
+[0.576s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__functions.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__struct.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__functions.c
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__struct.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__functions.c
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__functions.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__type_support.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__functions.h
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__functions.c
+[0.577s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.h
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__struct.h
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/goalpost.h
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/robot.h
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/confidence.h
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/library_path.sh
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/library_path.dsv
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_generator_c.so
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs
+[0.578s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__rosidl_typesupport_fastrtps_c.h
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__rosidl_typesupport_fastrtps_c.h
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__rosidl_typesupport_fastrtps_c.h
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_c.so
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg
+[0.579s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail
+[0.580s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__rosidl_typesupport_introspection_c.h
+[0.580s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.c
+[0.580s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.c
+[0.580s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__rosidl_typesupport_introspection_c.h
+[0.580s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__type_support.c
+[0.580s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__rosidl_typesupport_introspection_c.h
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_typesupport_introspection_c.so
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_typesupport_c.so
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__traits.hpp
+[0.581s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__struct.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__struct.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__builder.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__traits.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__traits.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__struct.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__builder.hpp
+[0.582s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__builder.hpp
+[0.583s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__type_support.hpp
+[0.583s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.584s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/robot.hpp
+[0.584s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/confidence.hpp
+[0.584s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/goalpost.hpp
+[0.584s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/dds_fastrtps
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__rosidl_typesupport_fastrtps_cpp.hpp
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__rosidl_typesupport_fastrtps_cpp.hpp
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail
+[0.585s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__type_support.cpp
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__rosidl_typesupport_introspection_cpp.hpp
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/goalpost__type_support.cpp
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/confidence__rosidl_typesupport_introspection_cpp.hpp
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/include/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs/msg/detail/robot__type_support.cpp
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_typesupport_introspection_cpp.so
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_typesupport_cpp.so
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/pythonpath.sh
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/pythonpath.dsv
+[0.586s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs-1.0.0-py3.10.egg-info
+[0.586s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[0.586s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.587s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.587s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/libsoccer_vision_attribute_msgs__rosidl_generator_py.so
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/_soccer_vision_attribute_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/_goalpost.py
+[0.587s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/_robot_s.c
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/__init__.py
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/_confidence_s.c
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/_robot.py
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/_goalpost_s.c
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg/_confidence.py
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/__init__.py
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/_soccer_vision_attribute_msgs_s.ep.rosidl_typesupport_c.c
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/_soccer_vision_attribute_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.588s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.619s] Listing '/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs'...
+[0.619s] Listing '/home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/msg'...
+[0.625s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.625s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.625s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/local/lib/python3.10/dist-packages/soccer_vision_attribute_msgs/soccer_vision_attribute_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/lib/libsoccer_vision_attribute_msgs__rosidl_generator_py.so
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/msg/Confidence.idl
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/msg/Goalpost.idl
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/msg/Robot.idl
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/msg/Confidence.msg
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/msg/Goalpost.msg
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/msg/Robot.msg
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/ament_index/resource_index/package_run_dependencies/soccer_vision_attribute_msgs
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/ament_index/resource_index/parent_prefix_path/soccer_vision_attribute_msgs
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/ament_prefix_path.sh
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/path.sh
+[0.627s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/environment/path.dsv
+[0.627s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/local_setup.bash
+[0.627s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/local_setup.sh
+[0.627s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/local_setup.zsh
+[0.627s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/local_setup.dsv
+[0.627s] -- Installing: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/package.dsv
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/ament_index/resource_index/packages/soccer_vision_attribute_msgs
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_generator_cExport.cmake
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.628s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_cExport.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_generator_cppExport.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_cppExport.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_generator_pyExport.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/export_soccer_vision_attribute_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/rosidl_cmake-extras.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.629s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.630s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.630s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.630s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.630s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgsConfig.cmake
+[0.630s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/cmake/soccer_vision_attribute_msgsConfig-version.cmake
+[0.630s] -- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_vision_attribute_msgs/share/soccer_vision_attribute_msgs/package.xml
+[0.635s] Invoked command in '/home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/Webots_YOLOv8/install/Webots_YOLOv8:/home/ivan/Webots_YOLOv8/install/soccer_ipm:/home/ivan/Webots_YOLOv8/install/my_package:/home/ivan/Webots_YOLOv8/install/ipm_service:/home/ivan/Webots_YOLOv8/install/ipm_image_node:/home/ivan/Webots_YOLOv8/install/ipm_library:/opt/ros/humble /usr/bin/cmake --install /home/ivan/Webots_YOLOv8/build/soccer_vision_attribute_msgs

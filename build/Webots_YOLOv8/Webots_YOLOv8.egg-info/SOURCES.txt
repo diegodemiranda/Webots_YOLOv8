@@ -9,10 +9,14 @@ setup.py
 ../../build/Webots_YOLOv8/Webots_YOLOv8.egg-info/top_level.txt
 ../../build/Webots_YOLOv8/Webots_YOLOv8.egg-info/zip-safe
 Webots_YOLOv8/__init__.py
+Webots_YOLOv8/def_white_threshold.py
 Webots_YOLOv8/running_inference.py
+Webots_YOLOv8/segmentacao.py
 Webots_YOLOv8/yolo_simulation.py
 launch/vision.launch.py
 modelo/best.pt
+recursos/green_pixels.csv
+recursos/white_pixels.csv
 resource/Webots_YOLOv8
 test/test_copyright.py
 test/test_flake8.py

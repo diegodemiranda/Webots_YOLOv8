@@ -1,0 +1,29 @@
+running egg_info
+writing ../../../build/soccer_ipm/soccer_ipm.egg-info/PKG-INFO
+writing dependency_links to ../../../build/soccer_ipm/soccer_ipm.egg-info/dependency_links.txt
+writing entry points to ../../../build/soccer_ipm/soccer_ipm.egg-info/entry_points.txt
+writing requirements to ../../../build/soccer_ipm/soccer_ipm.egg-info/requires.txt
+writing top-level names to ../../../build/soccer_ipm/soccer_ipm.egg-info/top_level.txt
+reading manifest file '../../../build/soccer_ipm/soccer_ipm.egg-info/SOURCES.txt'
+writing manifest file '../../../build/soccer_ipm/soccer_ipm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying soccer_ipm/utils.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm
+copying soccer_ipm/__init__.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm
+copying soccer_ipm/soccer_ipm.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm
+copying soccer_ipm/msgs/obstacles.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+copying soccer_ipm/msgs/__init__.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+copying soccer_ipm/msgs/markings.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+copying soccer_ipm/msgs/robots.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+copying soccer_ipm/msgs/ball.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+copying soccer_ipm/msgs/goalpost.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+copying soccer_ipm/msgs/field_boundary.py -> /home/ivan/Webots_YOLOv8/build/soccer_ipm/build/lib/soccer_ipm/msgs
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ivan/Webots_YOLOv8/install/soccer_ipm/lib/python3.10/site-packages/soccer_ipm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/soccer_ipm/soccer_ipm.egg-info to /home/ivan/Webots_YOLOv8/install/soccer_ipm/lib/python3.10/site-packages/soccer_ipm-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ipm script to /home/ivan/Webots_YOLOv8/install/soccer_ipm/lib/soccer_ipm
+writing list of installed files to '/home/ivan/Webots_YOLOv8/build/soccer_ipm/install.log'

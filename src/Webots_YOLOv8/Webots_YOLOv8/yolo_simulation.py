@@ -2,19 +2,37 @@
 import rclpy
 from rclpy.node import Node
 import cv2
+import os
 from cv_bridge import CvBridge 
 from sensor_msgs.msg import Image as ROS_Image
 import Webots_YOLOv8.running_inference as ri
 import soccer_vision_2d_msgs.msg as sv2dm 
 import soccer_vision_3d_msgs.msg as sv3dm
+import Webots_YOLOv8.segmentacao as seg
+
+from ament_index_python.packages import (
+    get_package_share_directory
+)
+
 
 
 class YoloSimulacao(Node):
 
     def __init__(self):
+        package_share = get_package_share_directory(
+            'Webots_YOLOv8'
+        )
         super().__init__('teste_yolo_sim')
         self.get_logger().info('>> MODO TESTE VISUAL (YOLO) <<')
         self.window_name = "detection window"
+        self.source_lut = os.path.join(
+            package_share,
+            'recursos',
+            'green_pixels.csv'
+        )
+
+        self.segmentador = seg.Pixel_Segment(self.source_lut)
+
 
         # 1. Carrega IA
         self.model = ri.model
@@ -52,7 +70,15 @@ class YoloSimulacao(Node):
             frame = self.bridge.imgmsg_to_cv2(ros_image_msg, desired_encoding="bgr8")
             
             # Roda o YOLO
+            resultado = self.segmentador.processar(frame)
             classes, scores, boxes, inference_frame = ri.detect_model(self.model, frame)
+
+            debug_img = seg.desenhar_segmentacao(
+            inference_frame,
+            resultado
+            )
+
+            # FUNCAO PARA DESENHAR A SEGMENTACAO
 
             # ROS Header
 
@@ -126,10 +152,12 @@ class YoloSimulacao(Node):
 
             # --- VISUALIZAÇÃO ---
             # Converte a imagem desenhada de volta para ROS e publica
-            debug_msg = self.bridge.cv2_to_imgmsg(inference_frame, "bgr8")
+            debug_msg = self.bridge.cv2_to_imgmsg(debug_img, "bgr8") # PUBLICAR DEBUG_IMG (SEGMENTACAO + INFERENCIA)
+            debug_msg.header = ros_image_msg.header
+
             self.debug_pub.publish(debug_msg)
 
-            cv2.imshow(self.window_name, inference_frame)
+            cv2.imshow(self.window_name, debug_img)
             cv2.waitKey(1)
 
         except Exception as e:

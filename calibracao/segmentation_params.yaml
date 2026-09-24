@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    lut_verde_csv: "/home/ivan/Webots_YOLOv8/calibracao/green_pixels_webots.csv"
+    branco_lower: [0, 0, 207]
+    branco_up: [179, 37, 255]

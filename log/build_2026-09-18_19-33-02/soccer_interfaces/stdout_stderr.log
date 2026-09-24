@@ -1,0 +1,20 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ivan/Webots_YOLOv8/build/soccer_interfaces
+-- Install configuration: ""
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/ament_index/resource_index/package_run_dependencies/soccer_interfaces
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/ament_index/resource_index/parent_prefix_path/soccer_interfaces
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/path.sh
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/environment/path.dsv
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.bash
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.sh
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.zsh
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/local_setup.dsv
+-- Installing: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/package.dsv
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/ament_index/resource_index/packages/soccer_interfaces
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/cmake/soccer_interfacesConfig.cmake
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/cmake/soccer_interfacesConfig-version.cmake
+-- Up-to-date: /home/ivan/Webots_YOLOv8/install/soccer_interfaces/share/soccer_interfaces/package.xml
