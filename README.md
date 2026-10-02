@@ -106,3 +106,48 @@ ros2 topic echo /balls_relative
 ![](https://github.com/ivan-josef/Webots_YOLOv8/blob/main/image/Screenshot%20from%202025-12-09%2022-13-23.png)
 
 Note that the robot was designed to facilitate model testing.
+
+## Bit-Bots-inspired vision pipeline (field boundary, obstacles, line points)
+
+`Webots_YOLOv8/pipeline/` holds a pipe-and-filter vision pipeline inspired by *"An Open Source Vision Pipeline Approach for RoboCup Humanoid Soccer"* (Hamburg Bit-Bots). It runs inside the same `vision_node` as YOLOv8 and does not depend on ROS (`pytest` runs it standalone).
+
+```
+camera image ──▶ YOLOv8 ───────────────▶ balls / goal_posts / robots / markings_in_image ─┐
+      │                                                                                    ├─▶ soccer_ipm ─▶ *_relative (m)
+      └─▶ pipeline: field boundary ─────▶ field_boundary_in_image ─────────────────────────┤
+                    obstacles ──────────▶ obstacles_in_image (minus what YOLO explains) ───┘
+                    line points ────────▶ IPM (ipm_library) ─▶ line_points_relative (PointCloud2, base_link)
+```
+
+| Topic | Type | Frame / units |
+|---|---|---|
+| `field_boundary_in_image` | `soccer_vision_2d_msgs/FieldBoundary` | pixels (1080x720) → `soccer_ipm` → `field_boundary_relative` |
+| `obstacles_in_image` | `soccer_vision_2d_msgs/ObstacleArray` | pixels → `soccer_ipm` → `obstacles_relative` |
+| `line_points_relative` | `sensor_msgs/PointCloud2` | meters, `base_link` |
+
+Notes:
+- Obstacles already explained by a YOLO ball/goalpost/robot/crossbar box are dropped (`pipeline.fuse_with_yolo`), and line points falling on those boxes are discarded.
+- Points above the horizon cannot be projected onto the ground plane (the camera is horizontal), so they are skipped by the IPM.
+- An empty `FieldBoundary` is never published (`soccer_ipm` fails on 0 points).
+
+Run (same commands as before; the launch now accepts arguments):
+```bash
+ros2 launch Webots_YOLOv8 vision.launch.py                       # defaults
+ros2 launch Webots_YOLOv8 vision.launch.py show_window:=false    # headless
+ros2 launch Webots_YOLOv8 vision.launch.py use_pipeline:=false   # YOLO only
+```
+
+Tuning (all runtime-changeable; defaults live in `config/vision_pipeline.yaml`):
+```bash
+ros2 param get /vision_node hsv.field_min
+ros2 param set /vision_node hsv.field_min "[48, 100, 70]"
+ros2 param set /vision_node pipeline.column_step 2
+ros2 topic echo /line_points_relative --once
+```
+HSV ranges are derived from `recursos/green_pixels.csv` (+ margin) and the white thresholds in `def_white_threshold.py`. Check them against the orange boundary / cyan line points in the debug window (`processed_image_topic`).
+
+Offline test on a saved frame, and unit tests:
+```bash
+python -m Webots_YOLOv8.pipeline.main_pipeline frame.png recursos/hsv_classes.csv   # writes debug_output.jpg
+pytest src/Webots_YOLOv8/test/test_vision_pipeline.py
+```
